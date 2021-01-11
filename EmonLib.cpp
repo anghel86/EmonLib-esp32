@@ -101,6 +101,7 @@ void EnergyMonitor::calcVI(unsigned int crossings, unsigned int timeout)
     //-----------------------------------------------------------------------------
     sampleV = analogRead(inPinV);                 //Read in raw voltage signal
     sampleI = analogRead(inPinI);                 //Read in raw current signal
+    ESP_LOGD("EmonLib", "test");
 
     //-----------------------------------------------------------------------------
     // B) Apply digital low pass filters to extract the 2.5 V or 1.65 V dc offset,
