@@ -45,6 +45,8 @@
 
 #define ADC_COUNTS  (1<<ADC_BITS)
 
+#define READ_COUNT_I  5
+
 
 class EnergyMonitor
 {
